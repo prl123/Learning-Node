@@ -13,10 +13,15 @@ var download = function(uri, filename, callback) {
     });
 };
 
-download('http://360-javascriptviewer.appspot.com/images/ipod/ipod_71.jpg', 'img71.jpg', function() {
-    console.log('Done downloading..');
-});
+main();
 
-download('http://360-javascriptviewer.appspot.com/images/ipod/ipod_72.jpg', 'img72.jpg', function() {
-    console.log('Done downloading..');
-});
+function main() {
+    for (var i =0; i< 71; i++) {
+        var filename = 'img';
+        var filenameID = i<10? '0'+i: i;
+        filename += (filenameID + '.jpg');
+        download('http://360-javascriptviewer.appspot.com/images/ipod/ipod_'+filenameID+'.jpg', filename, function() {
+            console.log('Done downloading..');
+        });
+    }
+}
