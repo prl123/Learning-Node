@@ -1,5 +1,9 @@
 Nginx默认安装之后
 
+## 让node通过ip访问
+listen的时候只绑定端口，不指定地址即可。
+
+
 ## 配置文件
 目录在`conf`下，修改`nginx.conf`文件， 提取出中间的`server`模块，放到`conf/vhosts`下，命名随意，比如`default.conf`。然后把`server`提取后空白的那块，补充上:
 
