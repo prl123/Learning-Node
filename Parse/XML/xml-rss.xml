@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<rss version="2.0" xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <channel>
+
+        <title>Yahoo! Weather - Paris, FR</title>
+        <link>http://us.rd.yahoo.com/dailynews/rss/weather/Paris__FR/*http://weather.yahoo.com/forecast/FRIF1165_c.html</link>
+        <description>Yahoo! Weather for Paris, FR</description>
+        <language>en-us</language>
+        <lastBuildDate>Thu, 03 Jul 2014 8:58 am CEST</lastBuildDate>
+        <ttl>60</ttl>
+        <yweather:location city="Paris" region="" country="France" />
+        <yweather:units temperature="C" distance="km" pressure="mb" speed="km/h" />
+        <yweather:wind chill="21" direction="" speed="" />
+        <yweather:atmosphere humidity="56" visibility="9.99" pressure="1015.92" rising="0" />
+        <yweather:astronomy sunrise="5:53 am" sunset="9:57 pm" />
+        <image>
+            <title>Yahoo! Weather</title>
+            <width>142</width>
+            <height>18</height>
+            <link>http://weather.yahoo.com</link>
+            <url>http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif</url>
+        </image>
+        <item>
+            <title>Conditions for Paris, FR at 8:58 am CEST</title>
+            <geo:lat>48.86</geo:lat>
+            <geo:long>2.34</geo:long>
+            <link>http://us.rd.yahoo.com/dailynews/rss/weather/Paris__FR/*http://weather.yahoo.com/forecast/FRIF1165_c.html</link>
+            <pubDate>Thu, 03 Jul 2014 8:58 am CEST</pubDate>
+            <yweather:condition text="Fair" code="34" temp="21" date="Thu, 03 Jul 2014 8:58 am CEST" />
+            <description>
+                <![CDATA[
+<img src="http://l.yimg.com/a/i/us/we/52/34.gif"/><br />
+<b>Current Conditions:</b><br />
+Fair, 21 C<BR />
+<BR /><b>Forecast:</b><BR />
+Thu - Sunny. High: 28 Low: 18<br />
+Fri - Showers. High: 26 Low: 18<br />
+Sat - Light Rain. High: 21 Low: 16<br />
+Sun - Rain. High: 20 Low: 14<br />
+Mon - Mostly Cloudy. High: 21 Low: 13<br />
+<br />
+<a href="http://us.rd.yahoo.com/dailynews/rss/weather/Paris__FR/*http://weather.yahoo.com/forecast/FRIF1165_c.html">Full Forecast at Yahoo! Weather</a><BR/><BR/>
+(provided by <a href="http://www.weather.com" >The Weather Channel</a>)<br/>
+]]>
+            </description>
+            <yweather:forecast day="Thu" date="3 Jul 2014" low="18" high="28" text="Sunny" code="32" />
+            <yweather:forecast day="Fri" date="4 Jul 2014" low="18" high="26" text="Showers" code="11" />
+            <yweather:forecast day="Sat" date="5 Jul 2014" low="16" high="21" text="Light Rain" code="11" />
+            <yweather:forecast day="Sun" date="6 Jul 2014" low="14" high="20" text="Rain" code="12" />
+            <yweather:forecast day="Mon" date="7 Jul 2014" low="13" high="21" text="Mostly Cloudy" code="28" />
+            <guid isPermaLink="false">FRIF1165_2014_07_07_7_00_CEST</guid>
+        </item>
+    </channel>
+</rss>
